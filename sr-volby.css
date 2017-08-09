@@ -1,0 +1,51 @@
+
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+    color:#555;
+}
+
+h1 {
+    text-align: center;
+}
+
+.navigation {
+    max-width: 1600px;
+    margin: 50px auto;
+    font-size: 120%;
+}
+
+.years-tab {
+    margin-top: 70px;
+    border-collapse: collapse; 
+    width: 100%;
+}
+
+.years-tab td {
+    text-align: left;
+    padding: 10px;
+}
+
+.years-tab tr {
+    border-bottom: 1px solid #dddddd;
+}
+.years-tab tr:last-child {
+    border-bottom: none;
+}
+
+.years-tab th {
+    text-align: left;
+    padding: 10px 0 10px 30px;
+}
+
+.years-tab a {
+    color: #555;
+}
+
+.years-tab a:hover {
+    color: #3d5fd8; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
