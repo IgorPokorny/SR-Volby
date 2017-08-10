@@ -44,8 +44,53 @@ h1 {
 }
 
 .years-tab a:hover {
-    color: #3d5fd8; 
+    color: #333; 
     font-weight: bold;
     text-decoration: none;
 }
+
+ .election-lists {
+    margin: 0;
+    width: 100%;
+    background-color: #f2eeee;
+    height: 700px;
+} 
+
+.election {
+    background-color: #f2eeee;
+    width: 1200px;
+    margin: 0px auto;
+    background-color: #fff;
+    border-collapse: collapse; 
+}
+
+.election td {
+    text-align: left;
+    padding: 10px 0 10px 30px;
+}
+
+.election tr {
+    border-bottom: 1px solid #f2eeee;
+}
+.election tr:last-child {
+    border-bottom: none;
+}
+
+.election th {
+    text-align: left;
+    padding: 10px 0 10px 30px;
+    margin-top: 10px;
+}
+
+.election-lists h2 {
+    /* display: block; */
+    padding-top: 70px;
+    text-align: center;
+    font-size: 180%;
+}
+
+ .election .chart {
+    float: left;
+     margin: 10px 10px 10px 0; 
+} 
 
