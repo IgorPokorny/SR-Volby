@@ -6,12 +6,28 @@ body {
     color:#555;
 }
 
+.post-header-line {
+    width: 100%;
+    background-color:#f2eeee;
+    height: 90px;
+    margin: 0;
+    border: none;   
+}
+
 h1 {
     text-align: center;
 }
 
+.deco-line {
+    color: #999;
+    width:10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .navigation {
-    max-width: 1600px;
+    max-width: 1200px; 
+    padding: 0 30px;
     margin: 50px auto;
     font-size: 120%;
 }
@@ -36,7 +52,7 @@ h1 {
 
 .years-tab th {
     text-align: left;
-    padding: 10px 0 10px 30px;
+    padding: 10px 10px 10px 10px;
 }
 
 .years-tab a {
@@ -49,48 +65,166 @@ h1 {
     text-decoration: none;
 }
 
- .election-lists {
+ .parlament-election {
     margin: 0;
+    padding-bottom: 50px;
     width: 100%;
     background-color: #f2eeee;
-    height: 700px;
+    height: 100%;
 } 
 
-.election {
-    background-color: #f2eeee;
-    width: 1200px;
-    margin: 0px auto;
-    background-color: #fff;
-    border-collapse: collapse; 
+.parlament-box {
+    width: 750px;
+    margin: 0px auto 40px auto;
+    padding: 20px; 
+    background-color: #fff; 
 }
 
-.election td {
+.parlament-tab {
+    border-collapse: collapse;
+}
+
+.parlament-tab td {
     text-align: left;
-    padding: 10px 0 10px 30px;
+    padding: 10px;
+    width: 180px;
 }
 
-.election tr {
+.parlament-tab tr {
     border-bottom: 1px solid #f2eeee;
-}
-.election tr:last-child {
-    border-bottom: none;
-}
-
-.election th {
     text-align: left;
-    padding: 10px 0 10px 30px;
-    margin-top: 10px;
 }
 
-.election-lists h2 {
-    /* display: block; */
-    padding-top: 70px;
+.parlament-tab th {
+    padding: 10px;
+    margin-top: 10px; 
+}
+
+.parlament-box p {
+    padding: 10px; 
+    margin-top: 0;
+    word-spacing: 1px;
+}
+
+
+.parlament-election h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top: 20px;
     text-align: center;
     font-size: 180%;
 }
 
- .election .chart {
-    float: left;
-     margin: 10px 10px 10px 0; 
-} 
+.parlament-title-underline {
+    width: 150px;
+    background-color: #e4e3e3;
+    margin-bottom: 50px;
+}
+
+.post-parlament-line {
+    width: 100%;
+    background-color: #e4e3e3;
+    border: none;
+    height: 90px;
+    margin: 0;
+}
+
+.president-election {
+    margin: 0;
+    width: 100%;
+    padding-bottom: 50px;
+    background-color:#e4e3e3;
+    height: 100%;
+}
+
+.president-box {
+    width: 750px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color:#f2f2f2;
+    color: #333; 
+}
+
+.president-tab {
+    border-collapse: collapse;
+}
+
+.president-tab .fst-round {
+    text-align: left;
+    width: 180px;
+    padding: 10px;
+}
+
+.president-tab .snd-round {
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.president-tab .to-left {
+    text-align: left;
+}
+
+.president-tab .to-right {
+    text-align: right;
+}
+
+.president-tab .to-center {
+    text-align: center;
+}
+
+.president-title {
+    width: 750px;
+}
+
+.president-tab tr {
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.president-election h2 {
+    text-align: center;
+    font-size: 180%;
+    padding-top: 20px;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 30px; 
+}
+
+.president-title-underline {
+    width: 150px;
+    background-color: #333;
+}
+
+.president-election h3 {
+    text-align: left;
+    margin: 70px auto 30px 10px;
+    font-size: 130%;
+}
+
+.president-box p {
+    padding: 10px; 
+    margin-top: 0;
+    word-spacing: 1px;
+}
+
+.chart {
+    display: inline-block;
+    background-color: #777;
+    height: 20px;
+}
+
+.unelected {
+    background-color: #b7b4b4; 
+}
+
+.parlament-out {       
+    color: #b7b4b4;
+}
+
+.parlament-tab .to-the-center {
+    text-align: center;
+}
+
+
+
 
