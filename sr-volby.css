@@ -18,6 +18,18 @@ h1 {
     text-align: center;
 }
 
+table td {
+    text-align: left;
+    padding: 10px 0 10px 10px;
+    width: 220px;
+}
+
+ table th {
+    text-align: left;
+    padding: 10px;
+    margin-top: 10px;
+} 
+
 .deco-line {
     color: #999;
     width:10%;
@@ -38,21 +50,11 @@ h1 {
     width: 100%;
 }
 
-.years-tab td {
-    text-align: left;
-    padding: 10px;
-}
-
 .years-tab tr {
     border-bottom: 1px solid #dddddd;
 }
 .years-tab tr:last-child {
     border-bottom: none;
-}
-
-.years-tab th {
-    text-align: left;
-    padding: 10px 10px 10px 10px;
 }
 
 .years-tab a {
@@ -84,20 +86,9 @@ h1 {
     border-collapse: collapse;
 }
 
-.parlament-tab td {
-    text-align: left;
-    padding: 10px;
-    width: 180px;
-}
-
 .parlament-tab tr {
     border-bottom: 1px solid #f2eeee;
-    text-align: left;
-}
-
-.parlament-tab th {
-    padding: 10px;
-    margin-top: 10px; 
+    
 }
 
 .parlament-box p {
@@ -107,18 +98,12 @@ h1 {
 }
 
 
-.parlament-election h2 {
+.parlament-box h2 {
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding-top: 20px;
     text-align: center;
     font-size: 180%;
-}
-
-.parlament-title-underline {
-    width: 150px;
-    background-color: #e4e3e3;
-    margin-bottom: 50px;
 }
 
 .post-parlament-line {
@@ -140,37 +125,13 @@ h1 {
 .president-box {
     width: 750px;
     padding: 20px;
-    margin: 0 auto;
+    margin: 0px auto 40px auto;
     background-color:#f2f2f2;
     color: #333; 
 }
 
 .president-tab {
     border-collapse: collapse;
-}
-
-.president-tab .fst-round {
-    text-align: left;
-    width: 180px;
-    padding: 10px;
-}
-
-.president-tab .snd-round {
-    padding: 10px;
-    width: 250px;
-    text-align: center;
-}
-
-.president-tab .to-left {
-    text-align: left;
-}
-
-.president-tab .to-right {
-    text-align: right;
-}
-
-.president-tab .to-center {
-    text-align: center;
 }
 
 .president-title {
@@ -181,24 +142,21 @@ h1 {
     border-bottom: 1px solid #d5d5d5;
 }
 
-.president-election h2 {
+.president-box h2 {
     text-align: center;
     font-size: 180%;
     padding-top: 20px;
     margin-top: 0;
     margin-left: 10px;
-    margin-bottom: 30px; 
-}
-
-.president-title-underline {
-    width: 150px;
-    background-color: #333;
+    margin-bottom: 30px;
+    color: #555; 
 }
 
 .president-election h3 {
     text-align: left;
     margin: 70px auto 30px 10px;
     font-size: 130%;
+    color: #555;
 }
 
 .president-box p {
@@ -217,14 +175,15 @@ h1 {
     background-color: #b7b4b4; 
 }
 
+.unsuccessful {
+    color: #888;
+}
+
+.unsuccessful-chart {
+    background-color:#b7b7b7;
+}
+
 .parlament-out {       
     color: #b7b4b4;
 }
-
-.parlament-tab .to-the-center {
-    text-align: center;
-}
-
-
-
 
