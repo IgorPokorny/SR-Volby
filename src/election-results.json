@@ -1,0 +1,37 @@
+{
+    "parliament": [
+        {
+            "year": 2016,
+            "turnout": "2 566 779",
+            "turnout_p": "58,33",
+            "parties": [
+                {"name": "SMER-SD", "seats": "62", "votes": "880 111", "votes_p": "34,80", "elected": true, "chart_width": 100},
+                {"name": "SDKÚ", "seats": "28", "votes": "390 042", "votes_p": "15,42", "elected": true, "chart_width": 50},
+                {"name": "SaS", "seats": "22", "votes": "307 287", "votes_p": "12,15", "elected": true},
+                {"name": "KDH", "seats": "15", "votes": "215 755", "votes_p": "&#8199;8,53", "elected": true},
+                {"name": "MOST-HÍD", "seats": "14", "votes": "205 538", "votes_p": "&#8199;8,13", "elected": true},
+                {"name": "SNS", "seats": "&#8199;9", "votes": "128 490", "votes_p": "&#8199;5,08", "elected": true},
+                {"name": "SMK", "seats": "&#8199;0", "votes": "109 638", "votes_p": "&#8199;4,33", "elected": false},
+                {"name": "ĽS-HZDS", "seats": "&#8199;0", "votes": "109 480", "votes_p": "&#8199;4,33", "elected": false}
+            ]
+        },
+        {
+            "year": 2015,
+            "turnout": "2 566 779",
+            "turnout_p": "58,33",
+            "parties": [
+                {"name": "SMER-SD", "seats": "62", "votes": "880 111", "votes_p": "34,80", "elected": true},
+                {"name": "SDKÚ", "seats": "28", "votes": "390 042", "votes_p": "15,42", "elected": true},
+                {"name": "SaS", "seats": "22", "votes": "307 287", "votes_p": "12,15", "elected": true},
+                {"name": "KDH", "seats": "15", "votes": "215 755", "votes_p": "&#8199;8,53", "elected": true},
+                {"name": "MOST-HÍD", "seats": "14", "votes": "205 538", "votes_p": "&#8199;8,13", "elected": true},
+                {"name": "SNS", "seats": "&#8199;9", "votes": "128 490", "votes_p": "&#8199;5,08", "elected": true},
+                {"name": "SMK", "seats": "&#8199;0", "votes": "109 638", "votes_p": "&#8199;4,33", "elected": false},
+                {"name": "ĽS-HZDS", "seats": "&#8199;0", "votes": "109 480", "votes_p": "&#8199;4,33", "elected": false}
+            ]
+        }
+    ],
+    "president": [
+        
+    ]
+}

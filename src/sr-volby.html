@@ -62,142 +62,29 @@
 		</header>
 		<hr class="post-header-line">
 
+    {{#parliament}}
 		<section class="parlament-election">
 			<div class="parlament-box">
-				<h2 id="parl-2016">Parlamentné voľby 2016</h2>
+				<h2 id="parl-{{year}}">Parlamentné voľby {{year}}</h2>
 				<table class="parlament-tab">
 					<tr>
 						<th>Strana</th>
 						<th>Mandáty</th> 
 						<th>Hlasy</th>
 					</tr>
+					{{#parties}}
 					<tr>
-						<td>SMER-SD</td>
-						<td>62</td>
-						<td>880 111</td>
-						<td>34,80%</td>
-						<td><span style="width:100px" class="chart"></span></td>
+						<td>{{name}}</td>
+						<td>{{{seats}}}</td>
+						<td>{{{votes}}}</td>
+						<td>{{{votes_p}}}%</td>
+						<td><span style="width:{{chart_width}}px" class="chart{{^elected}} unelected{{/elected}}"></span></td>
 					</tr>
-					<tr>
-						<td>SDKÚ</td>
-						<td>28</td>
-						<td>390 042</td>
-						<td>15,42%</td>
-						<td><span style="width:50px" class="chart"></span></td>
-					</tr>
-					<tr>
-						<td>SaS</td>
-						<td>22</td>
-						<td>307 287</td>
-						<td>12,15%</td>
-						<td><span style="width:px" class="chart"></span></td>
-					</tr>
-					<tr>
-						<td>KDH</td>
-						<td>15</td>
-						<td>215 755</td>
-						<td>&#8199;8,53%</td>
-						<td><span style="width:px" class="chart"></span></td>
-					</tr>
-					<tr>
-						<td>MOST-HÍD</td>
-						<td>14</td>
-						<td>205 538</td>
-						<td>&#8199;8,13%</td>
-						<td><span style="width:px" class="chart"></span></td>
-					</tr>
-					<tr>
-						<td>SNS</td>
-						<td>&#8199;9</td>
-						<td>128 490</td>
-						<td>&#8199;5,08%</td>
-						<td><span style="width:px" class="chart"></span></td>
-					</tr>
-					<tr>
-						<td>SMK</td>
-						<td>&#8199;0</td>
-						<td>109 638</td>
-						<td>&#8199;4,33%</td>
-						<td><span style="width:px" class="chart unelected"></span></td>
-					</tr>
-					<tr>
-						<td>ĽS-HZDS</td>
-						<td>&#8199;0</td>
-						<td>109 480</td>
-						<td>&#8199;4,33%</td>
-						<td><span style="width:px" class="chart unelected"></span></td>
-					</tr>
+					{{/parties}}
 				</table>
-				<p>Volebná účasť: <b>58,33%</b> (2 566 779 voličov)</p>
+				<p>Volebná účasť: <b>{{turnout_p}}%</b> ({{turnout}} voličov)</p>
 			</div>
-		<section class="parlament-election">
-			<div class="parlament-box">
-				<h2 id="parl-2015">Parlamentné voľby 2015</h2>
-				<table class="parlament-tab">
-					<tr>
-						<th>Strana</th>
-						<th>Mandáty</th> 
-						<th>Hlasy</th>
-					</tr>
-					<tr>
-						<td>SMER-SD</td>
-						<td>62</td>
-						<td>880 111</td>
-						<td>34,80%</td>
-						<td><span style="width:px" class="chart"></span></td>
-					</tr>
-					<tr>
-						<td>SDKÚ</td>
-						<td>28</td>
-						<td>390 042</td>
-						<td>15,42%</td>
-						<td><span style="width:px" class="chart"></span></td>
-					</tr>
-					<tr>
-						<td>SaS</td>
-						<td>22</td>
-						<td>307 287</td>
-						<td>12,15%</td>
-						<td><span style="width:px" class="chart"></span></td>
-					</tr>
-					<tr>
-						<td>KDH</td>
-						<td>15</td>
-						<td>215 755</td>
-						<td>&#8199;8,53%</td>
-						<td><span style="width:px" class="chart"></span></td>
-					</tr>
-					<tr>
-						<td>MOST-HÍD</td>
-						<td>14</td>
-						<td>205 538</td>
-						<td>&#8199;8,13%</td>
-						<td><span style="width:px" class="chart"></span></td>
-					</tr>
-					<tr>
-						<td>SNS</td>
-						<td>&#8199;9</td>
-						<td>128 490</td>
-						<td>&#8199;5,08%</td>
-						<td><span style="width:px" class="chart"></span></td>
-					</tr>
-					<tr>
-						<td>SMK</td>
-						<td>&#8199;0</td>
-						<td>109 638</td>
-						<td>&#8199;4,33%</td>
-						<td><span style="width:px" class="chart unelected"></span></td>
-					</tr>
-					<tr>
-						<td>ĽS-HZDS</td>
-						<td>&#8199;0</td>
-						<td>109 480</td>
-						<td>&#8199;4,33%</td>
-						<td><span style="width:px" class="chart unelected"></span></td>
-					</tr>
-				</table>
-				<p>Volebná účasť: <b>58,33%</b> (2 566 779 voličov)</p>
-			</div>
+			{{/parliament}}	
 
 		<section id="prez-2014"class="president-election">
 			<div class="president-box">
