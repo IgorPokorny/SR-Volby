@@ -1,14 +1,16 @@
 var gulp = require('gulp'),
     mustache = require("gulp-mustache")
 
-gulp.task('default', ['html'])
+gulp.task('default', ['template'])
 
 gulp.task('watch', function() {
-  gulp.watch('src/*', ['html']);
+  gulp.watch('src/*', ['template']);
 })
 
-gulp.task('html', function() {
+gulp.task('template', function() {
   return gulp.src('./src/sr-volby.html')
-    .pipe(mustache('./src/election-results.json', {}, {}))
+    .pipe(mustache('./src/election-results.json'))
     .pipe(gulp.dest('.'))
 })
+
+
