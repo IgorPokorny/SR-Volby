@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
         <title>SR voľby</title>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+				<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="sr-volby.css">
 		<script src="jquery.js"></script>
 		<script src="sr-volby.js"></script>	
@@ -68,16 +68,16 @@
 				<h2 id="parl-{{year}}">Parlamentné voľby {{year}}</h2>
 				<table class="parlament-tab">
 					<tr>
-						<th>Strana</th>
-						<th>Mandáty</th> 
-						<th>Hlasy</th>
+						<th class="aligned_to_left">Strana</th>
+						<th class="aligned_to_right">Mandáty</th> 
+						<th class="centered">Hlasy</th>
 					</tr>
 					{{#parties}}
 					<tr class="{{^parlament}} parlament-out{{/parlament}}">
 						<td>{{name}}</td>
-						<td>{{{seats}}}</td>
-						<td>{{{votes}}}</td>
-						<td>{{{votes_p}}}%</td>
+						<td class="aligned_to_right space_from_right">{{{seats}}}</td>
+						<td class="aligned_to_right space_from_right">{{{votes}}}</td>
+						<td class="aligned_to_right space_from_right">{{{votes_p}}}%</td>
 						<td><span style="width:{{chart_width}}px" class="chart{{^elected}} unelected{{/elected}}"></span></td>
 					</tr>
 					{{/parties}}
