@@ -4,7 +4,6 @@ body {
     padding:0;
     font-family: PT Sans, sans-serif;
     color:#555;
-    text-transform: uppercase;
 }
 
 h1 {
@@ -39,7 +38,7 @@ table td {
 
 table th {
     width: 150px;
-    padding: 10px 10px 10px 0;
+    padding: 10px 0;
     margin-top: 10px;
 } 
 
@@ -97,21 +96,22 @@ p {
        
 }
 
-.parlament-election {
+.election {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 30px;
-    padding: 0 50px;
+    margin: 0;
+    padding: 0;
 } 
 
-.parlament-box {
-    width: 500px;
-    margin: 10px auto 90px auto;
-    padding: 20px 13px;
+.box {
+    width: 470px;
+    margin: 30px 0;
+    padding-left: 6%;
 }
 
 .tab-border-bottom {
     border-collapse: collapse;
+    width: 470px;
 }
 
 .tab-border-bottom tr {
@@ -119,25 +119,11 @@ p {
     
 }
 
-.president-election {
-    margin-top: 50px;
-    width: 100%;
-    padding-bottom: 50px;
-    
-}
-
-.president-box {
-    width: 750px;
-    padding: 20px;
-    margin: 0px auto 40px auto;
-    color: #333;
-
-}
-
 .chart {
     display: inline-block;
     background-color: #777;
     height: 10px;
+    border-radius: 2px;
 }
 
 .unelected {
@@ -150,15 +136,16 @@ p {
 } 
 
 .first-col {
-    width: 15%;
+    width: 20%;
     text-align: left;
+    padding-left: 7px; 
 }
 
 .second-col {
-    width: 10%;
+    width: 12%;
     text-align: right;
-    padding-left: 20px;
-    padding-right: 10px;
+    /* padding-left: 15px;
+    padding-right: 10px; */
 }
 
 .second-col-president {
@@ -169,7 +156,7 @@ p {
 }
 
 .third-col {
-    width: 30%;
+    width: 20%;
     text-align: right;
     padding-right: 0px;
 }
@@ -181,13 +168,13 @@ p {
 }
 
 .fourth-col {
-    width: 20%;
+    width: 15%;
     text-align: right;
 }
 
 .fifth-col {
-    width: 25%;
-    padding-left: 10px; 
+    width: 20%;
+    padding-left: 20px; 
     
 }
 
