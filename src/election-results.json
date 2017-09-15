@@ -2,6 +2,37 @@
 {
     "parliament": [
         {
+            "year": 1994,
+            "turnout": "2 875 458",
+            "turnout_p": "75,65",
+            "parties": [
+                {"name": "HZDS-RS", "seats": "61", "votes": "1 005 488", "votes_p": 40.67, "parlament": true},
+                {"name": "SV", "seats": "18", "votes": "&#8199;299 496", "votes_p": 10.42, "parlament": true},
+                {"name": "MK", "seats": "17", "votes": "&#8199;292 936", "votes_p": 10.19, "parlament": true},
+                {"name": "KDH", "seats": "17", "votes": "&#8199;289 987", "votes_p": 10.08, "parlament": true},
+                {"name": "DEÚS", "seats": "15", "votes": "&#8199;246 444", "votes_p": 8.57, "parlament": true},
+                {"name": "ZRS", "seats": "13", "votes": "&#8199;211 321", "votes_p": 7.35, "parlament": true},
+                {"name": "SNS", "seats": "&#8199;9", "votes": "&#8199;155 359", "votes_p": 5.40, "parlament": true},
+                {"name": "DS", "seats": "&#8199;0", "votes": "&#8199;&#8199;98 555", "votes_p": 3.43, "parlament": false},
+                {"name": "KSS", "seats": "&#8199;0", "votes": "&#8199;&#8199;78 419", "votes_p": 2.73, "parlament": false}
+            ]
+        },
+        {
+            "year": 1998,
+            "turnout": "3 389 346",
+            "turnout_p": "84,24",
+            "parties": [
+                {"name": "HZDS", "seats": "43", "votes": "907 103", "votes_p": 27.00, "parlament": true},
+                {"name": "SDK", "seats": "42", "votes": "884 497", "votes_p": 26.33, "parlament": true},
+                {"name": "SDĽ", "seats": "23", "votes": "492 507", "votes_p": 15.33, "parlament": true},
+                {"name": "SMK", "seats": "15", "votes": "306 623", "votes_p": 9.13, "parlament": true},
+                {"name": "SNS", "seats": "14", "votes": "304 839", "votes_p": 9.07, "parlament": true},
+                {"name": "SOP", "seats": "13", "votes": "269 343", "votes_p": 8.02, "parlament": true},
+                {"name": "KSS", "seats": "&#8199;0", "votes": "&#8199;94 015", "votes_p": 2.80, "parlament": false},
+                {"name": "ZRS", "seats": "&#8199;0", "votes": "&#8199;43 809", "votes_p": 1.30, "parlament": false}
+            ]
+        },
+        {
             "year": 2002,
             "turnout": "2 913 267",
             "turnout_p": "70,06",
@@ -15,7 +46,7 @@
                 {"name": "KSS", "seats": "11", "votes": "181 872", "votes_p": 6.33, "parlament": true},
                 {"name": "P SNS", "seats": "&#8199;0", "votes": "105 084", "votes_p": 3.65, "parlament": false},
                 {"name": "SNS", "seats": "&#8199;0", "votes": "&#8199;95 633", "votes_p": 3.33, "parlament": false},
-                {"name": "HZD", "seats": "&#8199;0", "votes": "&#8199;94 324;", "votes_p": 3.28, "parlament": false},
+                {"name": "HZD", "seats": "&#8199;0", "votes": "&#8199;94 324", "votes_p": 3.28, "parlament": false},
                 {"name": "SDA", "seats": "&#8199;0", "votes": "&#8199;51 649", "votes_p": 1.80, "parlament": false},
                 {"name": "SDĽ", "seats": "&#8199;0", "votes": "&#8199;39 163", "votes_p": 1.36, "parlament": false}
             ]
