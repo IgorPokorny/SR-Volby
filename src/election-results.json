@@ -6,15 +6,15 @@
             "turnout": "2 875 458",
             "turnout_p": "75,65",
             "parties": [
-                {"name": "HZDS-RS", "seats": "61", "votes": "1 005 488", "votes_p": 40.67, "parlament": true},
-                {"name": "SV", "seats": "18", "votes": "&#8199;299 496", "votes_p": 10.42, "parlament": true},
-                {"name": "MK", "seats": "17", "votes": "&#8199;292 936", "votes_p": 10.19, "parlament": true},
-                {"name": "KDH", "seats": "17", "votes": "&#8199;289 987", "votes_p": 10.08, "parlament": true},
-                {"name": "DEÚS", "seats": "15", "votes": "&#8199;246 444", "votes_p": 8.57, "parlament": true},
-                {"name": "ZRS", "seats": "13", "votes": "&#8199;211 321", "votes_p": 7.35, "parlament": true},
-                {"name": "SNS", "seats": "&#8199;9", "votes": "&#8199;155 359", "votes_p": 5.40, "parlament": true},
-                {"name": "DS", "seats": "&#8199;0", "votes": "&#8199;&#8199;98 555", "votes_p": 3.43, "parlament": false},
-                {"name": "KSS", "seats": "&#8199;0", "votes": "&#8199;&#8199;78 419", "votes_p": 2.73, "parlament": false}
+                {"name": "HZDS-RS", "seats": 61, "votes": 1005488, "votes_p": 40.67, "parlament": true},
+                {"name": "SV", "seats": 18, "votes": 299496, "votes_p": 10.42, "parlament": true},
+                {"name": "MK", "seats": 17, "votes": 292936, "votes_p": 10.19, "parlament": true},
+                {"name": "KDH", "seats": 17, "votes": 289987, "votes_p": 10.08, "parlament": true},
+                {"name": "DEÚS", "seats": 15, "votes": 246444, "votes_p": 8.57, "parlament": true},
+                {"name": "ZRS", "seats": 13, "votes": 211321, "votes_p": 7.35, "parlament": true},
+                {"name": "SNS", "seats": 9, "votes": 155359, "votes_p": 5.40, "parlament": true},
+                {"name": "DS", "seats": 0, "votes": 98555, "votes_p": 3.43, "parlament": false},
+                {"name": "KSS", "seats": 0, "votes": 78419, "votes_p": 2.73, "parlament": false}
             ]
         },
         {
@@ -22,14 +22,14 @@
             "turnout": "3 389 346",
             "turnout_p": "84,24",
             "parties": [
-                {"name": "HZDS", "seats": "43", "votes": "907 103", "votes_p": 27.00, "parlament": true},
-                {"name": "SDK", "seats": "42", "votes": "884 497", "votes_p": 26.33, "parlament": true},
-                {"name": "SDĽ", "seats": "23", "votes": "492 507", "votes_p": 15.33, "parlament": true},
-                {"name": "SMK", "seats": "15", "votes": "306 623", "votes_p": 9.13, "parlament": true},
-                {"name": "SNS", "seats": "14", "votes": "304 839", "votes_p": 9.07, "parlament": true},
-                {"name": "SOP", "seats": "13", "votes": "269 343", "votes_p": 8.02, "parlament": true},
-                {"name": "KSS", "seats": "&#8199;0", "votes": "&#8199;94 015", "votes_p": 2.80, "parlament": false},
-                {"name": "ZRS", "seats": "&#8199;0", "votes": "&#8199;43 809", "votes_p": 1.30, "parlament": false}
+                {"name": "HZDS", "seats": 43, "votes": 907103, "votes_p": 27.00, "parlament": true},
+                {"name": "SDK", "seats": 42, "votes": 884497, "votes_p": 26.33, "parlament": true},
+                {"name": "SDĽ", "seats": 23, "votes": 492507, "votes_p": 15.33, "parlament": true},
+                {"name": "SMK", "seats": 15, "votes": 306623, "votes_p": 9.13, "parlament": true},
+                {"name": "SNS", "seats": 14, "votes": 304839, "votes_p": 9.07, "parlament": true},
+                {"name": "SOP", "seats": 13, "votes": 269343, "votes_p": 8.02, "parlament": true},
+                {"name": "KSS", "seats": 0, "votes": 94015, "votes_p": 2.80, "parlament": false},
+                {"name": "ZRS", "seats": 0, "votes": 43809, "votes_p": 1.30, "parlament": false}
             ]
         },
         {
@@ -37,18 +37,18 @@
             "turnout": "2 913 267",
             "turnout_p": "70,06",
             "parties": [
-                {"name": "HZDS", "seats": "36", "votes": "560 691", "votes_p": 19.50, "parlament": true},
-                {"name": "SDKÚ", "seats": "28", "votes": "433 953", "votes_p": 15.09, "parlament": true},
-                {"name": "SMER", "seats": "25", "votes": "387 100", "votes_p": 13.46, "parlament": true},
-                {"name": "SMK", "seats": "20", "votes": "321 069", "votes_p": 11.17, "parlament": true},
-                {"name": "KDH", "seats": "15", "votes": "237 202", "votes_p": 8.25, "parlament": true},
-                {"name": "ANO", "seats": "15", "votes": "230 309", "votes_p": 8.01, "parlament": true},
-                {"name": "KSS", "seats": "11", "votes": "181 872", "votes_p": 6.33, "parlament": true},
-                {"name": "P SNS", "seats": "&#8199;0", "votes": "105 084", "votes_p": 3.65, "parlament": false},
-                {"name": "SNS", "seats": "&#8199;0", "votes": "&#8199;95 633", "votes_p": 3.33, "parlament": false},
-                {"name": "HZD", "seats": "&#8199;0", "votes": "&#8199;94 324", "votes_p": 3.28, "parlament": false},
-                {"name": "SDA", "seats": "&#8199;0", "votes": "&#8199;51 649", "votes_p": 1.80, "parlament": false},
-                {"name": "SDĽ", "seats": "&#8199;0", "votes": "&#8199;39 163", "votes_p": 1.36, "parlament": false}
+                {"name": "HZDS", "seats": 36, "votes": 560691, "votes_p": 19.50, "parlament": true},
+                {"name": "SDKÚ", "seats": 28, "votes": 433953, "votes_p": 15.09, "parlament": true},
+                {"name": "SMER", "seats": 25, "votes": 387100, "votes_p": 13.46, "parlament": true},
+                {"name": "SMK", "seats": 20, "votes": 321069, "votes_p": 11.17, "parlament": true},
+                {"name": "KDH", "seats": 15, "votes": 237202, "votes_p": 8.25, "parlament": true},
+                {"name": "ANO", "seats": 15, "votes": 230309, "votes_p": 8.01, "parlament": true},
+                {"name": "KSS", "seats": 11, "votes": 181872, "votes_p": 6.33, "parlament": true},
+                {"name": "P SNS", "seats": 0, "votes": 105084, "votes_p": 3.65, "parlament": false},
+                {"name": "SNS", "seats": 0, "votes": 95633, "votes_p": 3.33, "parlament": false},
+                {"name": "HZD", "seats": 0, "votes": 94324, "votes_p": 3.28, "parlament": false},
+                {"name": "SDA", "seats": 0, "votes": 51649, "votes_p": 1.80, "parlament": false},
+                {"name": "SDĽ", "seats": 0, "votes": 39163, "votes_p": 1.36, "parlament": false}
             ]
         },
         {
@@ -56,15 +56,15 @@
             "turnout": "2 335 917",
             "turnout_p": "54,67",
             "parties": [
-                {"name": "SMER-SD", "seats": "50", "votes": "671 185", "votes_p": 29.14, "parlament": true},
-                {"name": "SDKÚ", "seats": "31", "votes": "422 815", "votes_p": 18.36, "parlament": true},
-                {"name": "SNS", "seats": "20", "votes": "270 230", "votes_p": 11.73, "parlament": true},
-                {"name": "KDH", "seats": "20", "votes": "269 111", "votes_p": 11.68, "parlament": true},
-                {"name": "HZDS", "seats": "15", "votes": "202 540", "votes_p": 8.79, "parlament": true},
-                {"name": "KDH", "seats": "&#8199;14", "votes": "191 443", "votes_p": 8.31, "parlament": true},
-                {"name": "KSS", "seats": "&#8199;0", "votes": "&#8199;89 418", "votes_p": 3.88, "parlament": false},
-                {"name": "SF", "seats": "&#8199;0", "votes": "&#8199;79 963", "votes_p": 3.47, "parlament": false},
-                {"name": "ANO", "seats": "&#8199;0", "votes": "&#8199;32 775", "votes_p": 1.42, "parlament": false}
+                {"name": "SMER-SD", "seats": 50, "votes": 671185, "votes_p": 29.14, "parlament": true},
+                {"name": "SDKÚ", "seats": 31, "votes": 422815, "votes_p": 18.36, "parlament": true},
+                {"name": "SNS", "seats": 20, "votes": 270230, "votes_p": 11.73, "parlament": true},
+                {"name": "KDH", "seats": 20, "votes": 269111, "votes_p": 11.68, "parlament": true},
+                {"name": "HZDS", "seats": 15, "votes": 202540, "votes_p": 8.79, "parlament": true},
+                {"name": "KDH", "seats": 14, "votes": 191443, "votes_p": 8.31, "parlament": true},
+                {"name": "KSS", "seats": 0, "votes": 89418, "votes_p": 3.88, "parlament": false},
+                {"name": "SF", "seats": 0, "votes": 79963, "votes_p": 3.47, "parlament": false},
+                {"name": "ANO", "seats": 0, "votes": 32775, "votes_p": 1.42, "parlament": false}
             ]
         },
         {
@@ -72,14 +72,14 @@
             "turnout": "2 566 779",
             "turnout_p": "58,33",
             "parties": [
-                {"name": "SMER-SD", "seats": "62", "votes": "880 111", "votes_p": 34.80, "parlament": true},
-                {"name": "SDKÚ", "seats": "28", "votes": "390 042", "votes_p": 15.42, "parlament": true},
-                {"name": "SaS", "seats": "22", "votes": "307 287", "votes_p": 12.15, "parlament": true},
-                {"name": "KDH", "seats": "15", "votes": "215 755", "votes_p": 8.53, "parlament": true},
-                {"name": "MOST-HÍD", "seats": "14", "votes": "205 538", "votes_p": 8.13, "parlament": true},
-                {"name": "SNS", "seats": "&#8199;9", "votes": "128 490", "votes_p": 5.08, "parlament": true},
-                {"name": "SMK", "seats": "&#8199;0", "votes": "109 638", "votes_p": 4.33, "parlament": false},
-                {"name": "ĽS-HZDS", "seats": "&#8199;0", "votes": "109 480", "votes_p": 4.33, "parlament": false}
+                {"name": "SMER-SD", "seats": 62, "votes": 880111, "votes_p": 34.80, "parlament": true},
+                {"name": "SDKÚ", "seats": 28, "votes": 390042, "votes_p": 15.42, "parlament": true},
+                {"name": "SaS", "seats": 22, "votes": 307287, "votes_p": 12.15, "parlament": true},
+                {"name": "KDH", "seats": 15, "votes": 215755, "votes_p": 8.53, "parlament": true},
+                {"name": "MOST-HÍD", "seats": 14, "votes": 205538, "votes_p": 8.13, "parlament": true},
+                {"name": "SNS", "seats": 9, "votes": 128490, "votes_p": 5.08, "parlament": true},
+                {"name": "SMK", "seats": 0, "votes": 109638, "votes_p": 4.33, "parlament": false},
+                {"name": "ĽS-HZDS", "seats": 0, "votes": 109480, "votes_p": 4.33, "parlament": false}
             ]
         },
         {
@@ -87,14 +87,14 @@
             "turnout": "2 596 443",
             "turnout_p": "59,11",
             "parties": [
-                {"name": "SMER-SD", "seats": "83", "votes": "1 134 280", "votes_p": 44.41, "parlament": true},
-                {"name": "KDH", "seats": "16", "votes": "&#8199;225 361", "votes_p": 8.82, "parlament": true},
-                {"name": "OĽANO-NOVA", "seats": "16", "votes": "&#8199;218 537", "votes_p": 8.55, "parlament": true},
-                {"name": "MOST-HÍD", "seats": "11", "votes": "&#8199;176 088", "votes_p": 6.89, "parlament": true},
-                {"name": "SDKÚ", "seats": "11", "votes": "&#8199;155 744", "votes_p": 6.09, "parlament": true},
-                {"name": "SaS", "seats": "11", "votes": "&#8199;150 266", "votes_p": 5.88, "parlament": true},
-                {"name": "SNS", "seats": "&#8199;0", "votes": "&#8199;116 420", "votes_p": 4.55, "parlament": false},
-                {"name": "SMK", "seats": "&#8199;0", "votes": "&#8199;109 484", "votes_p": 4.28, "parlament": false}
+                {"name": "SMER-SD", "seats": 83, "votes": 1134280, "votes_p": 44.41, "parlament": true},
+                {"name": "KDH", "seats": 16, "votes": 225361, "votes_p": 8.82, "parlament": true},
+                {"name": "OĽANO-NOVA", "seats": 16, "votes": 218537, "votes_p": 8.55, "parlament": true},
+                {"name": "MOST-HÍD", "seats": 11, "votes": 176088, "votes_p": 6.89, "parlament": true},
+                {"name": "SDKÚ", "seats": 11, "votes": 155744, "votes_p": 6.09, "parlament": true},
+                {"name": "SaS", "seats": 11, "votes": 150266, "votes_p": 5.88, "parlament": true},
+                {"name": "SNS", "seats": 0, "votes": 116420, "votes_p": 4.55, "parlament": false},
+                {"name": "SMK", "seats": 0, "votes": 109484, "votes_p": 4.28, "parlament": false}
             ]
         },
         {
@@ -102,16 +102,16 @@
             "turnout": "2 566 779",
             "turnout_p": "59,82",
             "parties": [
-                {"name": "SMER-SD", "seats": "49", "votes": "737 481", "votes_p": 28.28, "parlament": true},
-                {"name": "SaS", "seats": "21", "votes": "315 558", "votes_p": 12.10, "parlament": true},
-                {"name": "OĽANO-NOVA", "seats": "19", "votes": "287 611", "votes_p": 11.02, "parlament": true},
-                {"name": "SNS", "seats": "15", "votes": "225 386", "votes_p": 8.64, "parlament": true},
-                {"name": "ĽSNS", "seats": "14", "votes": "209 779", "votes_p": 8.04, "parlament": true},
-                {"name": "SME RODINA", "seats": "11", "votes": "172 860", "votes_p": 6.62, "parlament": true},
-                {"name": "MOST-HÍD", "seats": "11", "votes": "169 593", "votes_p": 6.50, "parlament": true},
-                {"name": "#SIEŤ", "seats": "10", "votes": "146 205", "votes_p": 5.60, "parlament": true},
-                {"name": "KDH", "seats": "&#8199;0", "votes": "128 908", "votes_p": 4.94, "parlament": false},
-                {"name": "SMK", "seats": "&#8199;0", "votes": "105 495", "votes_p": 4.04, "parlament": false}
+                {"name": "SMER-SD", "seats": 49, "votes": 737481, "votes_p": 28.28, "parlament": true},
+                {"name": "SaS", "seats": 21, "votes": 315558, "votes_p": 12.10, "parlament": true},
+                {"name": "OĽANO-NOVA", "seats": 19, "votes": 287611, "votes_p": 11.02, "parlament": true},
+                {"name": "SNS", "seats": 15, "votes": 225386, "votes_p": 8.64, "parlament": true},
+                {"name": "ĽSNS", "seats": 14, "votes": 209779, "votes_p": 8.04, "parlament": true},
+                {"name": "SME RODINA", "seats": 11, "votes": 172860, "votes_p": 6.62, "parlament": true},
+                {"name": "MOST-HÍD", "seats": 11, "votes": 169593, "votes_p": 6.50, "parlament": true},
+                {"name": "#SIEŤ", "seats": 10, "votes": 146205, "votes_p": 5.60, "parlament": true},
+                {"name": "KDH", "seats": 0, "votes": 128908, "votes_p": 4.94, "parlament": false},
+                {"name": "SMK", "seats": 0, "votes": 105495, "votes_p": 4.04, "parlament": false}
             ]
         }
     ],
@@ -124,15 +124,15 @@
                 "turnout": "1 914 021",
                 "turnout_p": "43,40",
                 "candidates": [
-                    {"name": "Róbert Fico", "support": "SMER-SD", "votes": "531 919", "votes_p": 28.0, "successful": true},
-                    {"name": "Andrej Kiska", "support": "nezávislý", "votes": "455 996", "votes_p": 24.0, "successful": true},
-                    {"name": "Radoslav Procházka", "support": "nezávislý", "votes": "403 548", "votes_p": 21.2, "successful": false},
-                    {"name": "Milan Kňažko", "support": "nezávislý", "votes": "244 401", "votes_p": 12.9, "successful": false},
-                    {"name": "Gyula Bárdos", "support": "SMK", "votes": "&#8199;97 035", "votes_p": 5.1, "successful": false},
-                    {"name": "Pavol Hrušovský", "support": "KDH-SDKU-MOST-SZ", "votes": "&#8199;63 298", "votes_p": 3.3, "successful": false},
-                    {"name": "Helena Mezenská", "support": "nezávislá", "votes": "&#8199;45 180", "votes_p": 2.4, "successful": false},
-                    {"name": "Ján Jurišta", "support": "KSS", "votes": "&#8199;12 209", "votes_p": 0.6, "successful": false},
-                    {"name": "Ján Čarnogurský", "support": "nazávislý", "votes": "&#8199;12 207", "votes_p": 0.6, "successful": false},
+                    {"name": "Róbert Fico", "support": "SMER-SD", "votes": 531919, "votes_p": 28.0, "successful": true},
+                    {"name": "Andrej Kiska", "support": "nezávislý", "votes": 455996, "votes_p": 24.0, "successful": true},
+                    {"name": "Radoslav Procházka", "support": "nezávislý", "votes": 403548, "votes_p": 21.2, "successful": false},
+                    {"name": "Milan Kňažko", "support": "nezávislý", "votes": 244401, "votes_p": 12.9, "successful": false},
+                    {"name": "Gyula Bárdos", "support": "SMK", "votes": 97035, "votes_p": 5.1, "successful": false},
+                    {"name": "Pavol Hrušovský", "support": "KDH-SDKU-MOST-SZ", "votes": 63298, "votes_p": 3.3, "successful": false},
+                    {"name": "Helena Mezenská", "support": "nezávislá", "votes": 45180, "votes_p": 2.4, "successful": false},
+                    {"name": "Ján Jurišta", "support": "KSS", "votes": 12209, "votes_p": 0.6, "successful": false},
+                    {"name": "Ján Čarnogurský", "support": "nazávislý", "votes": 12207, "votes_p": 0.6, "successful": false},
                     {"name": "Viliam Fisher", "support": "nezávislý", "votes": "&#8199;&#8199;9514", "votes_p": 0.5, "successful": false},
                     {"name": "Jozef Behýl", "support": "nezávislý", "votes": "&#8199;&#8199;9126", "votes_p": 0.5, "successful": false},
                     {"name": "Milan Melník", "support": "nezávislý", "votes": "&#8199;&#8199;7678", "votes_p": 0.4, "successful": false},

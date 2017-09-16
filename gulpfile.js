@@ -1,8 +1,7 @@
-
-
 var gulp = require('gulp'),
     mustache = require("gulp-mustache"),
-    fs = require('fs')
+    fs = require('fs'),
+    formatter = require('./formatter.js')
 
 gulp.task('default', ['template'])
 
@@ -28,7 +27,6 @@ function prepareResults(results) {
         for (var j = 0; j < parties.length; j++) {
             var percents = parties[j].votes_p
             var chart = percents * 4
-            parties[j].votes_p = formatNumber(percents)
             parties[j].chart_width = chart
             // parties[j].elected = percents >= 5
             if (percents < 5) {
@@ -37,11 +35,18 @@ function prepareResults(results) {
                 parties[j].elected = true
             }
         }
+        formatColumn(parties, 'seats')
+        formatColumn(parties, 'votes')
+        formatColumn(parties, 'votes_p', 2)
     } 
     return results
 }
 
-function formatNumber(number) {
-    return number.toLocaleString('sk', { useGrouping: true, minimumFractionDigits: 2 })
+function formatColumn(data, column, fractionLength=0) {
+    var maximum = data[0][column]
+    var integerLength = Math.trunc(Math.log10(maximum) + 1)
+    for (var i = 0; i < data.length; i++) {
+        data[i][column] = formatter.formatNumber(
+            data[i][column], integerLength, fractionLength)
+    }
 }
-
