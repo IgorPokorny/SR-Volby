@@ -3,14 +3,14 @@ module.exports.formatNumber = formatNumber
 const FIGURE_SPACE = '\u2007'
 const THIN_SPACE = '\u2009'
 
-function formatNumber(number, integerLength=0, fractionLength=0) {
+function formatNumber(number, integerLength, fractionLength) {
     var result = number.toFixed(fractionLength).replace('.', ',')
     result = padWithSpaces(result, integerLength, fractionLength)
     result = insertGroupSeparators(result, fractionLength)
     return result
 }
 
-function padWithSpaces(numberStr, integerLength=0, fractionLength=0) {
+function padWithSpaces(numberStr, integerLength, fractionLength) {
     var paddingLength = integerLength - numberStr.length
     if (fractionLength > 0) {
         paddingLength += 1 + fractionLength
