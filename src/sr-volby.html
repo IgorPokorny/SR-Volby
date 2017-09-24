@@ -16,12 +16,12 @@
 				<tr>
 					<th>Parlamentné</th>
 					<td></td>
-					<td><a href="#">1994</a></td>
-					<td><a href="#">1998</a></td>
+					<td><a href="#parl-1994">1994</a></td>
+					<td><a href="#parl-1998">1998</a></td>
 					<td></td>
-					<td><a href="#">2002</a></td>
+					<td><a href="#parl-2002">2002</a></td>
 					<td></td>
-					<td><a href="#">2006</a></td>
+					<td><a href="#parl-2006">2006</a></td>
 					<td></td>
 					<td><a href="#parl-2010">2010</a></td>
 					<td><a href="#parl-2012">2012</a></td>
@@ -30,14 +30,14 @@
 				</tr>
 				<tr>
 					<th>Prezidentské</th>
-					<td><a href="#">1993</a></td>
+					<td><a href="#prez-1993">1993</a></td>
 					<td></td>
-					<td><a href="#">1998</a></td>
-					<td><a href="#">1999</a></td>
+					<td><a href="#prez-1998">1998</a></td>
+					<td><a href="#prez-1999">1999</a></td>
 					<td></td>
-					<td><a href="#">2004</a></td>
+					<td><a href="#prez-2004">2004</a></td>
 					<td></td>
-					<td><a href="#">2009</a></td>
+					<td><a href="#prez-2009">2009</a></td>
 					<td></td>
 					<td></td>
 					<td><a href="#prez-2014">2014</a></td>
@@ -62,23 +62,25 @@
 		</header>
 		<hr class="separation-line">
 
-		<section class="parlament-election">
+		<section class="election">
     {{#parliament}}
-			<div class="parlament-box">
+			<div class="box">
 				<h2 id="parl-{{year}}">Parlamentné voľby {{year}}</h2>
 				<table class="tab-border-bottom">
 					<tr>
 						<th class="first-col">Strana</th>
 						<th class="second-col">Mandáty</th> 
 						<th class="third-col">Hlasy</th>
+						<th></th>
+						<th></th>
 					</tr>
 					{{#parties}}
-					<tr class="{{^parlament}} unsuccessful{{/parlament}}">
+					<tr class="{{^elected}} unsuccessful{{/elected}}">
 						<td class="first-col">{{name}}</td>
 						<td class="second-col">{{{seats}}}</td>
 						<td class="third-col">{{{votes}}}</td>
 						<td class="fourth-col">{{{votes_p}}}%</td>
-						<td class="fifth-col"><span style="width:{{chart_width}}px" class="chart{{^elected}} unelected{{/elected}}"></span></td>
+						<td class="fifth-col"><span style="width:{{chart_width}}px" class="chart{{^elected}} chart--unelected{{/elected}}"></span></td>
 					</tr>
 					{{/parties}}
 				</table>
@@ -88,40 +90,48 @@
 		</section>
 		<hr class="separation-line">
 
-		<section class="president-election">
+		<section class="election">
 		{{#president}}
-			<div class="president-box">
+			<div class="box">
 				<h2 id="prez-{{year}}">Prezidentské voľby {{year}}</h2>
-				<h3>2. kolo</h3>
+				<h3>Druhé kolo</h3>
 				<table class="tab-border-bottom">
 					<tr>
-						<th class="aligned-left">Kandidát</th>
-						<th class="aligned-left">Hlasy</th>
+						<th class="aligned-left first-col--president">Kandidát</th>
+						<th class="aligned-left third-col--president">Hlasy</th>
+						<th></th>
+						<th></th>
 					</tr>
 					{{#round2.candidates}}
-					<tr class="{{^successful}} unsuccessful{{/successful}}">
-						<td>{{name}}</td>
+					<tr class="{{^successful}} unsuccessful{{/successful}} winner-president">
+						<td class="first-col--president">{{name}}</td>
 						<td>{{{votes}}}</td>
-						<td>{{votes_p}}%</td>
-						<td><span style="width:{{chart_width}}px"></span></td>
+						<td class="third-col">{{votes_p}}%</td>
+						<td><span style="width:{{chart_width}}px" class="chart{{^elected}} chart--unelected{{/elected}}"></span></td>
 					</tr>
 				{{/round2.candidates}}
 				</table>
 				<p>Volebná účasť: <b>{{round2.turnout_p}}%</b> ({{round2.turnout}} voličov)</p>
-				<h3>1. kolo</h3>
-				<table class="tab-border-bottom">
+				<h3>Prvé kolo</h3>
+				<table class="tab-border-bottom president">
 					<tr>
 						<th class="first-col">Kandidát</th>
-						<th class="second-col">Strana</th>
 						<th class="third-col">Hlasy</th>
+						<th class="fourth-col"></th>
+						<th class="fifth-col"></th>
 					</tr>
 					{{#round1.candidates}}
-					<tr class="{{^successful}} unsuccessful{{/successful}}">
-						<td class="first-col">{{name}}</td>
-						<td class="second-col-president">{{support}}</td>
-						<td class="third-col-president">{{{votes}}}</td>
-						<td class="fourth-col">{{{votes_p}}}%</td>
-						<td class="fifth-col"><span style="width:{{chart_width}}px"></span></td>
+					<tr class="{{^elected}} unsuccessful{{/elected}}">
+						<td class="first-col--to-support">{{name}}</td>
+						<td rowspan="2" class="third-col--president">{{{votes}}}</td>
+						<td rowspan="2" class="fourth-col--president">{{{votes_p}}}%</td>
+						<td rowspan="2" class="fifth-col"><span style="width:{{chart_width}}px" class="chart{{^elected}} chart--unelected{{/elected}}"></span></td>
+					</tr>
+					<tr class="support-row">
+						<td rowspan="1" class="support first-col--president">{{support}}</td>
+						<!-- <td rowspan="1" class="third-col--president"></td>
+						<td rowspan="1" class="fourth-col--president"></td>
+						<td rowspan="1" class="fifth-col"></td> -->
 					</tr>
 				{{/round1.candidates}}
 				</table>

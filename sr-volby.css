@@ -3,14 +3,13 @@ body {
     margin:0;
     padding:0;
     font-family: PT Sans, sans-serif;
-    color:#555;
+    color:#333;
 }
 
 h1 {
     text-align: center;
-    /* letter-spacing: 1px; */
     font-weight: normal;
-    color: #333;
+    
 }
 
 h2 {
@@ -20,15 +19,20 @@ h2 {
     text-align: center;
     font-size: 190%;
     font-weight: normal;
-    /* letter-spacing: 1px; */
-    color: #333;
+    
 }
 
 h3 {
-    text-align: left;
-    margin: 70px auto 30px 0px;
-    font-size: 130%;
-    color: #555;
+    letter-spacing: 1px;
+    margin: 20px auto 5px 0px;
+    font-size: 120%;
+    font-weight: normal;
+    /* font-style: italic; */
+    /* font-variant: small-caps; */
+    /* letter-spacing: 1px; */
+    /* border-top: 1px #A8A8A8 solid; */
+    background-color: #F1F1F1;
+    border-radius: 5px;
 }
 
 table td {
@@ -40,6 +44,7 @@ table th {
     width: 150px;
     padding: 10px 0;
     margin-top: 10px;
+    text-align: left;
 } 
 
 p {
@@ -78,20 +83,19 @@ p {
 }
 
 .years-tab tr {
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid #E7E5E5;
 }
 .years-tab tr:last-child {
     border-bottom: none;
 }
 
 .years-tab a {
-    color: #555;
+    color: #414141;
     margin-left: 20px;
 }
 
 .years-tab a:hover {
-    color: #333; 
-    font-weight: bold;
+    color: #000; 
     text-decoration: none;
        
 }
@@ -104,78 +108,96 @@ p {
 } 
 
 .box {
-    width: 470px;
+    width: 500px;
     margin: 30px 0;
-    padding-left: 6%;
+    padding-left: 5%;
 }
 
 .tab-border-bottom {
     border-collapse: collapse;
-    width: 470px;
+    width: 500px;
 }
 
 .tab-border-bottom tr {
-    border-bottom: 1px solid #D3D3D3;
-    
+    border-bottom: 1px solid #E7E5E5;
 }
 
 .chart {
     display: inline-block;
-    background-color: #777;
-    height: 10px;
+    background-color: #333;
+    height: 6px;
     border-radius: 2px;
 }
 
-.unelected {
-    background-color: #b7b4b4; 
+.chart--unelected {
+    background-color: #7C7C7C; 
 }
 
 .unsuccessful {
-    color: #949292;
-    
+    color: #6D6D6D;
 } 
+
+.winner-president:nth-child(2) {
+    color: #000;
+}
+
+.support {
+    font-size: 80%;
+    padding: 0 0 5px 0;
+    color: #6D6D6D;
+}
+
+.support-row {
+    width:100%;
+    border-bottom: 1px solid #E7E5E5;
+}
+
+.president tr:nth-child(even) {
+    border-bottom: none;
+}
 
 .first-col {
     width: 20%;
     text-align: left;
-    padding-left: 7px; 
+}
+
+.first-col--president {
+    width: 30%;
+}
+
+.first-col--to-support {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    width: 40%;
 }
 
 .second-col {
     width: 12%;
-    text-align: right;
-    /* padding-left: 15px;
-    padding-right: 10px; */
-}
-
-.second-col-president {
-    width: 20%;
-    text-align: right;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 .third-col {
-    width: 20%;
-    text-align: right;
+    width: 15%;
     padding-right: 0px;
 }
 
-.third-col-president {
+.third-col--president {
     width: 20%;
-    text-align: right;
-    padding-right: 10px;
+    /* border-bottom: 1px solid #E7E5E5; */
 }
 
 .fourth-col {
+    width: 10%;
+}
+
+.fourth-col--president {
     width: 15%;
-    text-align: right;
+    /* border-bottom: 1px solid #E7E5E5; */
 }
 
 .fifth-col {
     width: 20%;
-    padding-left: 20px; 
-    
+    padding-left: 0px;
+    /* border-bottom: 1px solid #E7E5E5;  */
 }
 
 .aligned-left {
