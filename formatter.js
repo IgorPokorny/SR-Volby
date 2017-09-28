@@ -2,11 +2,15 @@ module.exports.formatNumber = formatNumber
 
 const FIGURE_SPACE = '\u2007'
 const THIN_SPACE = '\u2009'
+const FIGURE_DASH = '\u2012'
 
 function formatNumber(number, integerLength, fractionLength) {
     var result = number.toFixed(fractionLength).replace('.', ',')
     result = padWithSpaces(result, integerLength, fractionLength)
     result = insertGroupSeparators(result, fractionLength)
+    if (number == 0) {
+        result = result.replace('0', FIGURE_DASH)
+    }
     return result
 }
 
