@@ -25,9 +25,11 @@ gulp.task('template', function() {
 function prepareResultsParliament(results) {
     for(var i = 0; i < results.parliament.length; i++) {      
         var parties = results.parliament[i].parties
+        results.parliament[i].turnout = formatter.formatNumber(results.parliament[i].turnout)
+        results.parliament[i].turnout_p = formatter.formatNumber(results.parliament[i].turnout_p, 0, 2)
         for (var j = 0; j < parties.length; j++) {
             var percents = parties[j].votes_p
-            var chart = percents * 2.7
+            var chart = percents * 2.5
             parties[j].chart_width = chart
             // parties[j].elected = percents >= 5
             if (percents < 5) {
@@ -55,9 +57,11 @@ function prepareResultsPresident(results) {
     for(var i = 0; i < results.president.length; i++) {
         var roundFirst = results.president[i].round1
         var candidates = roundFirst.candidates
+        roundFirst.turnout = formatter.formatNumber(roundFirst.turnout)
+        roundFirst.turnout_p = formatter.formatNumber(roundFirst.turnout_p, 0, 2)
         for (var j = 0; j < candidates.length; j++) {
             var percents = candidates[j].votes_p
-            var chart = percents * 3.5
+            var chart = percents * 2.5
             candidates[j].chart_width = chart
             candidates[j].elected = j < 2
         }
@@ -66,6 +70,8 @@ function prepareResultsPresident(results) {
 
         var roundSecond = results.president[i].round2
         var candidates = roundSecond.candidates
+        roundSecond.turnout = formatter.formatNumber(roundSecond.turnout)
+        roundSecond.turnout_p = formatter.formatNumber(roundSecond.turnout_p, 0, 2)
         for (var j = 0; j < candidates.length; j++) {
             var percents = candidates[j].votes_p
             var chart = percents * 2.5
