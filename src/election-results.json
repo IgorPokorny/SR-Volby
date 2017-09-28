@@ -3,8 +3,8 @@
     "parliament": [
         {
             "year": 1994,
-            "turnout": "2 875 458",
-            "turnout_p": "75,65",
+            "turnout": 2875458,
+            "turnout_p": 75.65,
             "parties": [
                 {"name": "HZDS-RSS", "seats": 61, "votes": 1005488, "votes_p": 40.67},
                 {"name": "SV", "seats": 18, "votes": 299496, "votes_p": 10.42},
@@ -19,8 +19,8 @@
         },
         {
             "year": 1998,
-            "turnout": "3 389 346",
-            "turnout_p": "84,24",
+            "turnout": 3389346,
+            "turnout_p": 84.24,
             "parties": [
                 {"name": "HZDS", "seats": 43, "votes": 907103, "votes_p": 27.00},
                 {"name": "SDK", "seats": 42, "votes": 884497, "votes_p": 26.33},
@@ -34,8 +34,8 @@
         },
         {
             "year": 2002,
-            "turnout": "2 913 267",
-            "turnout_p": "70,06",
+            "turnout": 2913267,
+            "turnout_p": 70.06,
             "parties": [
                 {"name": "HZDS", "seats": 36, "votes": 560691, "votes_p": 19.50},
                 {"name": "SDKÚ", "seats": 28, "votes": 433953, "votes_p": 15.09},
@@ -53,8 +53,8 @@
         },
         {
             "year": 2006,
-            "turnout": "2 335 917",
-            "turnout_p": "54,67",
+            "turnout": 2335917,
+            "turnout_p": 54.67,
             "parties": [
                 {"name": "SMER-SD", "seats": 50, "votes": 671185, "votes_p": 29.14},
                 {"name": "SDKÚ", "seats": 31, "votes": 422815, "votes_p": 18.36},
@@ -69,9 +69,9 @@
         },
         {
             "year": 2010,
-            "turnout": "2 566 779",
-            "turnout_p": "58,33",
-            "parties": [
+            "turnout": 2566779,
+            "turnout_p": 58.33,
+            "parties":[
                 {"name": "SMER-SD", "seats": 62, "votes": 880111, "votes_p": 34.80},
                 {"name": "SDKÚ", "seats": 28, "votes": 390042, "votes_p": 15.42},
                 {"name": "SaS", "seats": 22, "votes": 307287, "votes_p": 12.15},
@@ -84,8 +84,8 @@
         },
         {
             "year": 2012,
-            "turnout": "2 596 443",
-            "turnout_p": "59,11",
+            "turnout": 2596443,
+            "turnout_p": 59.11,
             "parties": [
                 {"name": "SMER-SD", "seats": 83, "votes": 1134280, "votes_p": 44.41},
                 {"name": "KDH", "seats": 16, "votes": 225361, "votes_p": 8.82},
@@ -99,8 +99,8 @@
         },
         {
             "year": 2016,
-            "turnout": "2 566 779",
-            "turnout_p": "59,82",
+            "turnout": 2566779,
+            "turnout_p": 59.82,
             "parties": [
                 {"name": "SMER-SD", "seats": 49, "votes": 737481, "votes_p": 28.28},
                 {"name": "SaS", "seats": 21, "votes": 315558, "votes_p": 12.10},
@@ -119,10 +119,38 @@
 
     "president": [
         {
+            "year": 1999,
+            "round1": {
+                "turnout": 4038899,
+                "turnout_p": 73.81,
+                "candidates": [
+                    {"name": "Rudolf Schuster", "support": "SOP", "votes": 1396950, "votes_p": 47.37, "successful": true},
+                    {"name": "Vladimír Mečiar", "support": "HZDS", "votes": 1097956, "votes_p": 37.23, "successful": true},
+                    {"name": "Magda Vášáryová", "support": "nezávislá", "votes": 194635, "votes_p": 6.60, "successful": false},
+                    {"name": "Ivan Mjartan", "support": "nezávislý", "votes": 105903, "votes_p": 3.59, "successful": false},
+                    {"name": "Ján Slota", "support": "SNS", "votes": 73836, "votes_p": 2.50, "successful": false},
+                    {"name": "Boris Zala", "support": "nezávislý", "votes": 29697, "votes_p": 1.00, "successful": false},
+                    {"name": "Juraj Švec", "support": "nezávislý", "votes": 24077, "votes_p": 0.81, "successful": false},
+                    {"name": "Juraj Lazarčík", "support": "KSS", "votes": 15386, "votes_p": 0.52, "successful": false},
+                    {"name": "Michal Kováč", "support": "nazávislý", "votes": 5425, "votes_p": 0.18, "successful": false},
+                    {"name": "Ján Demikát", "support": "NaAS, JSP, SNP", "votes": 4537, "votes_p": 0.15, "successful": false}
+                ]
+            },
+            "round2": {
+                "turnout": 4038899,
+                "turnout_p": 75.45,
+            
+                "candidates": [
+                    {"name":"Rudolf Schuster", "votes": 1727481, "votes_p": 57.18, "successful": true},
+                    {"name":"Vladimír Mečiar", "votes": 1293642, "votes_p": 42.81, "successful": false}
+                ]
+            }
+        },
+        {
             "year": 2004,
             "round1": {
-                "turnout": "2 015 889",
-                "turnout_p": "47,94",
+                "turnout": 2015889,
+                "turnout_p": 47.94,
                 "candidates": [
                     {"name": "Vladimír Mečiar", "support": "HZDS", "votes": 650242, "votes_p": 32.74, "successful": true},
                     {"name": "Ivan Gašparovič", "support": "HZD, ĽÚ, PSNS, SMER", "votes": 442564, "votes_p": 22.28, "successful": true},
@@ -139,8 +167,8 @@
                 ]
             },
             "round2": {
-                "turnout": "1 828 307",
-                "turnout_p": "43,50",
+                "turnout": 1828307,
+                "turnout_p": 43.50,
             
                 "candidates": [
                     {"name":"Ivan Gašparovič", "votes": 1079592, "votes_p": 59.91, "successful": true},
@@ -151,8 +179,8 @@
         {
             "year": 2009,
             "round1": {
-                "turnout": "1 893 439",
-                "turnout_p": "43,63",
+                "turnout": 1893439,
+                "turnout_p": 43.63,
                 "candidates": [
                     {"name": "Ivan Gašparovič", "support": "SMER-SD", "votes": 876061, "votes_p": 46.71, "successful": true},
                     {"name": "Iveta Radičová", "support": "SDKÚ, KDH, SMK, OKS, SaS", "votes": 713735, "votes_p": 38.05, "successful": true},
@@ -164,8 +192,8 @@
                 ]
             },
             "round2": {
-                "turnout": "2 242 162",
-                "turnout_p": "51.67",
+                "turnout": 2242162,
+                "turnout_p": 51.67,
                 "candidates": [
                     {"name":"Ivan Gašparovič", "votes": 1234787, "votes_p": 55.53, "successful": true},
                     {"name":"Iveta Radičová", "votes": 988808, "votes_p": 44.47, "successful": false}
@@ -175,8 +203,8 @@
         {
             "year": 2014,
             "round1": {
-                "turnout": "1 914 021",
-                "turnout_p": "43,40",
+                "turnout": 1914021,
+                "turnout_p": 43.40,
                 "candidates": [
                     {"name": "Róbert Fico", "support": "SMER-SD", "votes": 531919, "votes_p": 28.0, "successful": true},
                     {"name": "Andrej Kiska", "support": "nezávislý", "votes": 455996, "votes_p": 24.0, "successful": true},
@@ -195,8 +223,8 @@
                 ]
             },
             "round2": {
-                "turnout": "2 200 906",
-                "turnout_p": "50,48",
+                "turnout": 2200906,
+                "turnout_p": 50.48,
             
                 "candidates": [
                     {"name":"Andrej Kiska", "votes": 1307065, "votes_p": 59.4, "successful": true},
