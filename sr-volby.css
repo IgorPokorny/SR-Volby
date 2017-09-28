@@ -9,7 +9,7 @@ body {
 h1 {
     text-align: center;
     font-weight: normal;
-    
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -27,21 +27,14 @@ h3 {
     margin: 20px auto 5px 0px;
     font-size: 120%;
     font-weight: normal;
-    /* font-style: italic; */
-    /* font-variant: small-caps; */
-    /* letter-spacing: 1px; */
-    /* border-top: 1px #A8A8A8 solid; */
-    background-color: #F1F1F1;
+    background-color: #F5F5F5;
     border-radius: 5px;
-}
-
-table td {
-    padding: 15px 0;
-    width: 150px;
+    padding-left: 5px;
+    margin-left: -5px;
 }
 
 table th {
-    width: 150px;
+    /* width: 150px; */
     padding: 10px 0;
     margin-top: 10px;
     text-align: left;
@@ -53,40 +46,39 @@ p {
     word-spacing: 1px;
 }
 
-.post-title-line {
-    color: #999;
-    width: 10%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-
 .separation-line {
-    width: 20%;
-    background-color: #999;
+    width: 40%;
+    background-color: #DDDDDD;
     height: 1px;
-    margin: 40px auto;   
+    margin: 40px auto;
+    border: none;   
 }
 
 
 .navigation {
-    max-width: 1200px; 
+    /* max-width: 1200px;  */
     padding: 0 30px;
-    margin: 50px auto;
+    /* margin: 30px auto; */
     font-size: 120%;
+    overflow-x: auto;
 }
 
 .years-tab {
-    margin-top: 70px;
-    border-collapse: collapse; 
-    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto; 
+    /* width: 100%; */
 }
 
 .years-tab tr {
     border-bottom: 1px solid #E7E5E5;
+    
 }
 .years-tab tr:last-child {
     border-bottom: none;
+}
+
+.years-tab td {
+    padding: 10px 5px;
 }
 
 .years-tab a {
@@ -98,6 +90,15 @@ p {
     color: #000; 
     text-decoration: none;
        
+}
+
+.box td {
+    padding: 10px 0;
+    /* width: 150px; */
+}
+
+.support td {
+    padding: 0;
 }
 
 .election {
@@ -113,13 +114,58 @@ p {
     padding-left: 5%;
 }
 
-.tab-border-bottom {
+.parliament,
+.president {
     border-collapse: collapse;
     width: 500px;
 }
 
-.tab-border-bottom tr {
+.parliament tr,
+.president tr {
+    border-top: 1px solid #E7E5E5;
+}
+
+.parliament tr:first-child,
+.president tr:first-child {
+    border-top: none;
+}
+
+.parliament tr:last-child,
+.president tr:last-child {
     border-bottom: 1px solid #E7E5E5;
+}
+
+.election .first-round td {
+    padding: 2px 0;
+}
+
+.wider-box {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.indirect-pres h2 {
+    text-align: left;
+}
+
+.indirect-pres h3 {
+    background-color: #fff;
+    font-weight: bold;
+}
+
+.indirect-pres li {
+    text-indent: -25px;
+}
+
+.indirect-pres ul {
+    list-style: none;
+    padding: 0 25px;
+}
+
+.indirect-pres ul li::before {
+    content: '— ';
+    padding-right: 5px;
+    
 }
 
 .chart {
@@ -147,57 +193,60 @@ p {
     color: #6D6D6D;
 }
 
-.support-row {
+.president .support-row {
     width:100%;
-    border-bottom: 1px solid #E7E5E5;
+    border-top: none;
 }
 
-.president tr:nth-child(even) {
+.first-round {
+    border-bottom: 1px solid  #E7E5E5;
+}
+
+
+.first-round tr:nth-child(even) {
     border-bottom: none;
 }
 
 .first-col {
-    width: 20%;
+    width: 25%;
     text-align: left;
 }
 
-.first-col--president {
-    width: 30%;
-}
-
-.first-col--to-support {
-    padding-top: 10px;
-    padding-bottom: 0px;
-    width: 40%;
-}
-
 .second-col {
-    width: 12%;
+    width: 16%;
 }
 
 .third-col {
-    width: 15%;
+    width: 20%;
     padding-right: 0px;
 }
 
-.third-col--president {
-    width: 20%;
-    /* border-bottom: 1px solid #E7E5E5; */
-}
-
 .fourth-col {
-    width: 10%;
-}
-
-.fourth-col--president {
-    width: 15%;
-    /* border-bottom: 1px solid #E7E5E5; */
+    width: 16%;
 }
 
 .fifth-col {
-    width: 20%;
+    width: 23%;
     padding-left: 0px;
-    /* border-bottom: 1px solid #E7E5E5;  */
+   
+}
+
+.first-col--president {
+    width: 34%;
+}
+
+.second-col--president {
+    width: 18%;
+}
+
+.third-col--president {
+    width: 15%;
+    
+}
+
+.fourth-col--president {
+    width: 33%;
+    
 }
 
 .aligned-left {
