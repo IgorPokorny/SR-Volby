@@ -12,7 +12,8 @@ gulp.task('watch', ['template'], function() {
 gulp.task('template', function() {
     var data = JSON.parse(fs.readFileSync('./src/election-results.json'))
     prepareResultsParliament(data)
-    prepareResultsPresident(data) 
+    prepareResultsPresident(data)
+    prepareResultsParliamentEu(data) 
     return gulp.src('./src/sr-volby.html')
         .pipe(mustache(data))
         .pipe(gulp.dest('.'))
@@ -61,7 +62,7 @@ function prepareResultsPresident(results) {
         roundFirst.turnout_p = formatter.formatNumber(roundFirst.turnout_p, 0, 2)
         for (var j = 0; j < candidates.length; j++) {
             var percents = candidates[j].votes_p
-            var chart = percents * 2.5
+            var chart = percents * 2
             candidates[j].chart_width = chart
             candidates[j].elected = j < 2
         }
@@ -74,7 +75,7 @@ function prepareResultsPresident(results) {
         roundSecond.turnout_p = formatter.formatNumber(roundSecond.turnout_p, 0, 2)
         for (var j = 0; j < candidates.length; j++) {
             var percents = candidates[j].votes_p
-            var chart = percents * 2.5
+            var chart = percents * 2
             candidates[j].votes_p = formatter.formatNumber(percents, 2, 2)
             candidates[j].chart_width = chart
             candidates[j].elected = j == 0
@@ -82,5 +83,28 @@ function prepareResultsPresident(results) {
         formatColumn(candidates, 'votes', 0)
     }
     return results
+}
+
+function prepareResultsParliamentEu(results) {
+    for(var i = 0; i < results.parliament_eu.length; i++) {      
+        var parties = results.parliament_eu[i].parties
+        results.parliament_eu[i].turnout = formatter.formatNumber(results.parliament_eu[i].turnout)
+        results.parliament_eu[i].turnout_p = formatter.formatNumber(results.parliament_eu[i].turnout_p, 0, 2)
+        for (var j = 0; j < parties.length; j++) {
+            var percents = parties[j].votes_p
+            var chart = percents * 2
+            parties[j].chart_width = chart
+            // parties[j].elected = percents >= 5
+            if (percents < 5) {
+                parties[j].elected = false
+            } else {
+                parties[j].elected = true
+            }
+        }
+        formatColumn(parties, 'seats', 0)
+        formatColumn(parties, 'votes', 0)
+        formatColumn(parties, 'votes_p', 2)
+    }
+    
 }
 

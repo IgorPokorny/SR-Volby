@@ -232,5 +232,65 @@
                 ]
             }
         }        
+    ],
+
+
+    "parliament_eu": [
+        {
+            "year": 2004,
+            "turnout": 714508,
+            "turnout_p": 16.96,
+            "parties": [
+                {"name": "SDKÚ", "seats": 3, "votes": 119954, "votes_p": 17.09},
+                {"name": "ĽS-HZDS", "seats": 3, "votes": 119582, "votes_p": 17.04},
+                {"name": "SMER", "seats": 3, "votes": 118535, "votes_p": 16.89},
+                {"name": "KDH", "seats": 3, "votes": 113655, "votes_p": 16.19},
+                {"name": "SMK", "seats": 2, "votes": 92927, "votes_p": 13.24},
+                {"name": "ANO", "seats": 0, "votes": 32653, "votes_p": 4.65},
+                {"name": "KSS", "seats": 0, "votes": 31908, "votes_p": 4.54},
+                {"name": "SF", "seats": 0, "votes": 22804, "votes_p": 3.25},
+                {"name": "SNS + PSNS", "seats": 0, "votes": 14150, "votes_p": 2.01},
+                {"name": "HZD", "seats": 0, "votes": 11914, "votes_p": 1.69},
+                {"name": "OKS", "seats": 0, "votes": 7060, "votes_p": 1.00}
+            ]
+        },
+        {
+            "year": 2009,
+            "turnout": 853533,
+            "turnout_p": 19.64,
+            "parties": [
+                {"name": "SMER", "seats": 5, "votes": 264722, "votes_p": 32.01},
+                {"name": "SDKÚ", "seats": 2, "votes": 140426, "votes_p": 16.98},
+                {"name": "SMK", "seats": 2, "votes": 93750, "votes_p": 11.33},
+                {"name": "KDH", "seats": 2, "votes": 89905, "votes_p": 10.87},
+                {"name": "ĽS-HZDS", "seats": 1, "votes": 74241, "votes_p": 8.97},
+                {"name": "SNS", "seats": 1, "votes": 45960, "votes_p": 5.55},
+                {"name": "SaS", "seats": 0, "votes": 39016, "votes_p": 4.71},
+                {"name": "SZ", "seats": 0, "votes": 17482, "votes_p": 2.11},
+                {"name": "OKS + KDS", "seats": 0, "votes": 17409, "votes_p": 2.10},
+                {"name": "KSS", "seats": 0, "votes": 13643, "votes_p": 1.65},
+                {"name": "SF", "seats": 0, "votes": 13063, "votes_p": 1.57}
+            ]
+        },
+        {
+            "year": 2014,
+            "turnout": 576437,
+            "turnout_p": 13.05,
+            "parties": [
+                {"name": "SMER", "seats": 4, "votes": 135089, "votes_p": 24.09},
+                {"name": "KDH", "seats": 2, "votes": 74108, "votes_p": 13.21},
+                {"name": "SDKÚ", "seats": 2, "votes": 43467, "votes_p": 7.75},
+                {"name": "OĽaNO", "seats": 1, "votes": 41829, "votes_p": 7.46},
+                {"name": "NOVA + OKS", "seats": 1, "votes": 38316, "votes_p": 6.83},
+                {"name": "SaS", "seats": 1, "votes": 37376, "votes_p": 6.66},
+                {"name": "SMK", "seats": 1, "votes": 36629, "votes_p": 6.53},
+                {"name": "MOST-HÍD", "seats": 1, "votes": 32708, "votes_p": 5.83},
+                {"name": "Strana TIP", "seats": 0, "votes": 20730, "votes_p": 3.69},
+                {"name": "SNS", "seats": 0, "votes": 20244, "votes_p": 3.61},
+                {"name": "ĽS-NS", "seats": 0, "votes": 9749, "votes_p": 1.73},
+                {"name": "PaS", "seats": 0, "votes": 9322, "votes_p": 1.66},
+                {"name": "KSS", "seats": 0, "votes": 8510, "votes_p": 1.51}
+            ]
+        }
     ]
 }
