@@ -3,23 +3,36 @@ body {
     margin:0;
     padding:0;
     font-family: PT Sans, sans-serif;
-    color:#333;
+    color:#212529;
 }
 
 h1 {
     text-align: center;
     font-weight: normal;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    font-size: 300%;
+    color: #e03131;
+    /* background: linear-gradient(90deg ,#fa5252 , #c92a2a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
 }
 
 h2 {
     margin-top: 0;
-    margin-bottom: 30px;
-    padding-top: 20px;
-    text-align: center;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    /* text-align: center; */
     font-size: 190%;
     font-weight: normal;
     
+}
+
+.section-header {
+    color: #3b5bdb;
+    font-weight: bold;
+    width: 100%;
+    padding-left: 5%;
+    margin-top: 20px;
 }
 
 h3 {
@@ -38,7 +51,8 @@ table th {
     padding: 10px 0;
     margin-top: 10px;
     text-align: left;
-} 
+    color: #888;
+}
 
 p {
     padding: 10px 10px 10px 0; 
@@ -47,13 +61,21 @@ p {
 }
 
 .separation-line {
-    width: 40%;
-    background-color: #DDDDDD;
-    height: 1px;
-    margin: 40px auto;
-    border: none;   
+    width: 100%;
+    background: linear-gradient(20deg, #4263eb 5%, #748ffc 80%, #fff);
+    height: 3px;
+    margin: 0;
+    border: none;
+      
 }
 
+.separation-line-first {
+    width: 100%;
+    background: linear-gradient(20deg,#f03e3e 5%, #ff8787 80%, #fff);
+    height: 3px;
+    margin: 0;
+    border: none;
+}
 
 .navigation {
     /* max-width: 1200px;  */
@@ -63,16 +85,21 @@ p {
     overflow-x: auto;
 }
 
+.navigation th {
+    font-weight: normal;
+    color: #333;
+}
+
 .years-tab {
     border-collapse: collapse;
-    margin: 20px auto; 
+    margin: 30px auto; 
     /* width: 100%; */
 }
 
 .years-tab tr {
     border-bottom: 1px solid #E7E5E5;
-    
 }
+
 .years-tab tr:last-child {
     border-bottom: none;
 }
@@ -81,20 +108,23 @@ p {
     padding: 10px 5px;
 }
 
+.years-tab .space_right {
+    padding-right: 25px;
+} 
+
 .years-tab a {
-    color: #414141;
+    color: #4263eb;
     margin-left: 20px;
+    margin-bottom: 5px;
+    /* font-weight: bold; */
+    text-decoration: none;
+    border-bottom: 1px solid #6987FF;
+    transition: color 0.3s, border 0.3s;
 }
 
 .years-tab a:hover {
-    color: #000; 
-    text-decoration: none;
-       
-}
-
-.box td {
-    padding: 10px 0;
-    /* width: 150px; */
+    color: #f03e3e; 
+    border-bottom: 1px solid #f03e3e; 
 }
 
 .support td {
@@ -106,12 +136,17 @@ p {
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-} 
+}
 
 .box {
     width: 500px;
-    margin: 30px 0;
+    margin: 10px 0;
     padding-left: 5%;
+}
+
+.box td {
+    padding: 10px 0;
+    /* width: 150px; */
 }
 
 .parliament,
@@ -125,7 +160,7 @@ p {
     border-top: 1px solid #E7E5E5;
 }
 
-.parliament tr:first-child,
+/* .parliament tr:first-child, */
 .president tr:first-child {
     border-top: none;
 }
@@ -140,8 +175,8 @@ p {
 }
 
 .wider-box {
-    width: 50%;
-    padding-left: 10%;
+    width: 55%;
+    padding-left: 5%;
 }
 
 .indirect-pres h2 {
@@ -170,18 +205,18 @@ p {
 
 .chart {
     display: inline-block;
-    background-color: #333;
+    background:linear-gradient(120deg, #748ffc 10%, #364fc7 90%);
     height: 6px;
     border-radius: 2px;
 }
 
 .chart--unelected {
-    background-color: #7C7C7C; 
+    background:linear-gradient(120deg, #BBBBBB 5%, #888 90%); 
 }
 
 .unsuccessful {
     color: #6D6D6D;
-} 
+}
 
 .winner-president:nth-child(2) {
     color: #000;
@@ -251,4 +286,115 @@ p {
 
 .aligned-left {
     text-align: left;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media only screen and (max-width: 970px) {
+    .navigation {
+        font-size: 100%;
+    }
+    .years-tab a {
+        margin-left: 10px;
+
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    h1 {
+        font-size: 250%;
+    }
+    
+    .years-tab a {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    h1 {
+        font-size: 200%;
+    }
+    h2 {
+        font-size: 170%;
+    }
+    .box {
+        font-size: 90%;
+        padding-left: 3%;
+    }
+   
+    .parliament,
+    .president {
+        width: 430px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    h1 {
+        font-size: 180%;
+    }
+    h2 {
+        font-size: 150%
+    }
+    .box {
+        font-size: 77%;
+        padding-left: 2%;
+    }
+    .chart {
+        height: 4px;
+    }
+
+    .parliament,
+    .president {
+        width: 380px;
+}
+
+@media only screen and (max-width: 380px) {
+    .box {
+        padding-left: 1%;
+    }
+    h2 {
+        font-size: 140%;
+    }
+    .parliament,
+    .president {
+        width: 355px;
+    }
+    .third-col {
+        width: 25%;
+    }
+    .fourth-col {
+        width: 15%;
+    }
+}   
+
+@media only screen and (max-width: 340px) {
+    .parliament,
+    .president {
+        width: 320px;
+    }
+    .first-col {
+        width: 22%;
+    }
+    .second-col{
+        width: 16%;
+    }
+    .third-col {
+        width: 25%;
+    }
+    .fourth-col {
+        width: 15%;
+    }
+    .fifth-col {
+        width: 22%;
+    }
+    .first-col--president {
+        width: 28%;
+    }
+    .second-col--president {
+        width: 20%;
+    }
+    .third-col--president {
+        width: 16%;
+    }
 }
